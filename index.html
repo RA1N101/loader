@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="heckindex/hhp.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+  <title>Loader</title>
+  <style>
+    #index1 iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+    #index1 {
+      display: none;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <script>
+    // Redirect after 2.5 seconds
+    setTimeout(function() {
+    window.location.href = 'index1.html';
+  // document.querySelector('.loading').style.display = 'none';
+  // document.querySelector('.window').style.display = 'none';
+  // document.getElementById('index1').style.display = 'block';
+    }, 2500);
+  </script>
+</head>
+<body>
+  <div class="window">
+    <div class="windmill">
+      <div class="pillar"></div>
+      <div class="dome">
+        <div class="dome-window"></div>
+      </div>
+      <div class="windmill-window"></div>
+      <div class="blades">
+        <div class="blade blade-1"></div>
+        <div class="blade blade-2"></div>
+        <div class="blade blade-3"></div>
+        <div class="blade blade-4"></div>
+      </div>
+      <div class="ramp">
+        <div class="grill"></div>
+        <div class="hook hook-1"></div>
+        <div class="hook hook-2"></div>
+        <div class="hook hook-3"></div>
+        <div class="hook hook-4"></div>
+      </div>
+    </div>
+    <div class="sun"></div>
+    <div class="land"></div>
+    <div class="grass grass-1"></div>
+    <div class="grass grass-2"></div>
+  </div>
+  <div class="loading">Loading</div>
+
+  <div id="index1">
+    <iframe src="heckindex/app/"></iframe>
+  </div>
+</body>
+</html>
+
